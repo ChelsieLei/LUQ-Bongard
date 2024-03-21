@@ -1,0 +1,15 @@
+# dir 不需要提交的目录
+/Bongard/cache
+/Bongard/save_dist
+/__pycache__
+/assets
+
+# file 不需要提交的文件
+# Readme.md
+
+# log 不需要提交的任意包含后缀名为log的文件
+*.log
+*.pyc
+
+# Package Files 不需要提交的任意包含后缀名为jar的文件
+# *.jar
