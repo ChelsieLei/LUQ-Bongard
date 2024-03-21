@@ -5,14 +5,14 @@ Project Link: https://chelsielei.github.io/LUQ/
 
 ## Installation
 Install pytorch
-'''
+```
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-'''
+```
 
 Install the necessary packages with requirements.txt
-'''
+```
 pip install -r requirements.txt
-'''
+```
 ## Dataset
 Data Preparation
 ===
