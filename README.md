@@ -53,31 +53,29 @@ Also download the related annotation file from [here]() and put into `./Bongard/
 
 Note, the folder architecture looks like the following
     ```plain
-    | assets
-    └──data/hake/images
-    | Bongard
-    └── cache
-        └── DEKR
-            └── DEKR_det_bongard.pkl
-        └── ldm_selected_v4
-        └── bongard_hoi_train.json
-        └── generated_train_query_selected_v4.json
-    | README.md
+    assets
+    └── data/hake/images
+    Bongard
+        ├── cache
+            ├── DEKR
+            ├── ldm_selected_v4
+            ├── bongard_hoi_train.json
+            ├── generated_train_query_selected_v4.json
+        └── README.md
     ```
 
 
-
 ## Training
-'''bash
+```bash
 cd Bongard 
 python train_my_metric_st_ldm.py --config-file "configs/my_metric_st_ldm.yaml" 
-'''
+```
 
 ## Testing
-'''bash
+```bash
 cd Bongard 
 python train_my_metric_st_ldm.py --config-file "configs/my_metric_st_ldm.yaml"  --test_only --test_model "<path to best_model.pth>"
-'''
+```
 
 ## Model Zoo
 We provide weights pre-trained on Bongard-HOI for potential downstream applications. 
