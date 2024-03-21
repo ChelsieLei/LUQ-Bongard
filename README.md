@@ -51,18 +51,7 @@ Data Preparation
 Also download the related annotation file from [here]() and put into `./Bongard/cache`
 [TO BE RELEASED]
 
-Note, the folder architecture looks like the following
-    ```plain
-    assets
-    └── data/hake/images
-    Bongard
-        ├── cache
-            ├── DEKR
-            ├── ldm_selected_v4
-            ├── bongard_hoi_train.json
-            ├── generated_train_query_selected_v4.json
-        └── README.md
-    ```
+
 
 
 ## Training
