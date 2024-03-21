@@ -52,27 +52,30 @@ Also download the related annotation file from [here]() and put into `./Bongard/
 [TO BE RELEASED]
 
 Note, the folder architecture looks like the following
-| assets
-└──data/hake/images
-| Bongard
-└── cache
-    └── DEKR
-        └── DEKR_det_bongard.pkl
-    └── ldm_selected_v4
-    └── bongard_hoi_train.json
-    └── generated_train_query_selected_v4.json
-| README.md
+    ```plain
+    | assets
+    └──data/hake/images
+    | Bongard
+    └── cache
+        └── DEKR
+            └── DEKR_det_bongard.pkl
+        └── ldm_selected_v4
+        └── bongard_hoi_train.json
+        └── generated_train_query_selected_v4.json
+    | README.md
+    ```
+
 
 
 ## Training
-'''
-cd Bongard \\
+'''bash
+cd Bongard 
 python train_my_metric_st_ldm.py --config-file "configs/my_metric_st_ldm.yaml" 
 '''
 
 ## Testing
-'''
-cd Bongard \\
+'''bash
+cd Bongard 
 python train_my_metric_st_ldm.py --config-file "configs/my_metric_st_ldm.yaml"  --test_only --test_model "<path to best_model.pth>"
 '''
 
@@ -81,7 +84,7 @@ We provide weights pre-trained on Bongard-HOI for potential downstream applicati
 
 |Model|SOSA|SOUA|UOSA|UOUA|Avg|Weights|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
-|Ours|`68.14`| `70.94`| `68.45`| `67.43`|`68.74`|[weights](https://nusu-my.sharepoint.com/:u:/r/personal/e1100059_u_nus_edu/Documents/LUQ-Bongard/DEKR_det_bongard.pkl?csf=1&web=1&e=45ywLy)|
+|Ours|`68.14`| `70.94`| `68.45`| `67.43`|`68.74`|[weights](https://nusu-my.sharepoint.com/:u:/r/personal/e1100059_u_nus_edu/Documents/LUQ-Bongard/Best_LUQ_Bongard.pth?csf=1&web=1&e=TUq6Zc)|
 
 
 
