@@ -1,7 +1,7 @@
 # [AAAI 2024] Few-Shot Learning from Augmented Label-Uncertain Queries in Bongard-HOI
 This is the repository for paper "Few-Shot Learning from Augmented Label-Uncertain Queries in Bongard-HOI" [AAAI2024] 
 
-Project Link: https://chelsielei.github.io/LUQ/
+Project page Link: https://chelsielei.github.io/LUQ/
 
 ## Installation
 Install pytorch
@@ -45,11 +45,10 @@ Data Preparation
 
 4. Download the pretrained ResNet-50 from [here](https://zenodo.org/record/7079175/files/resnet.tar?download=1) and extract them to `./Bongard/cache`
 
-5. Download the detected human bounding boxes by DEKR from [here](https://nusu-my.sharepoint.com/:u:/r/personal/e1100059_u_nus_edu/Documents/LUQ-Bongard/DEKR_det_bongard.pkl?csf=1&web=1&e=Q6bTCv) and extract them to `./Bongard/cache/DEKR`
+5. Download the detected human bounding boxes by DEKR from [here](https://drive.google.com/file/d/1eQz95ilcC3xCZVRAxsqNA3WeQufOmxTw/view?usp=drive_link) and extract them to `./Bongard/cache/DEKR`
 
-6. Download the generated background-blended queries from [here]() and extract them to `./Bongard/cache/ldm_selected_v4`
-Also download the related annotation file from [here]() and put into `./Bongard/cache`
-[TO BE RELEASED]
+6. Download the generated background-blended queries from [here](https://drive.google.com/file/d/1P2ysdID_4jpazxOqBlTpp2AdsGKVE0NI/view?usp=drive_link) and extract them to `./Bongard/cache/ldm_selected_v4`
+Also download the related annotation file from [here](https://drive.google.com/file/d/15z5kt5uZJdGyhGHyAsg8u0trh_z1_q-u/view?usp=drive_link) and put into `./Bongard/cache`
 
 
 
@@ -71,7 +70,7 @@ We provide weights pre-trained on Bongard-HOI for potential downstream applicati
 
 |Model|SOSA|SOUA|UOSA|UOUA|Avg|Weights|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
-|Ours|`68.14`| `70.94`| `68.45`| `67.43`|`68.74`|[weights](https://nusu-my.sharepoint.com/:u:/r/personal/e1100059_u_nus_edu/Documents/LUQ-Bongard/Best_LUQ_Bongard.pth?csf=1&web=1&e=TUq6Zc)|
+|Ours|`68.14`| `70.94`| `68.45`| `67.43`|`68.74`|[weights](https://drive.google.com/file/d/10W1lksHoCpMQxADPkbhMMZpUilWRpKbe/view?usp=drive_link)|
 
 
 
