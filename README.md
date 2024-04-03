@@ -79,11 +79,14 @@ We provide weights pre-trained on Bongard-HOI for potential downstream applicati
 If you find our work useful for your research, please consider citing us:
 
 ```bibtex
-@article{lei2023few,
+@inproceedings{lei2024few,
   title={Few-Shot Learning from Augmented Label-Uncertain Queries in Bongard-HOI},
   author={Lei, Qinqian and Wang, Bo and Tan, Robby T},
-  journal={arXiv preprint arXiv:2312.10586},
-  year={2023}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={4},
+  pages={2974--2982},
+  year={2024}
 }
 ```
 
